@@ -3,10 +3,10 @@ on:
   push:
     branches:
   #on.push.branches, on.push.abc
-    - main
+    - master
   pull_request:
     branches:
-    - main
+    - master
 jobs:
   test:
     runs-on: ubuntu-latest
